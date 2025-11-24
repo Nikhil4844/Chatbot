@@ -110,7 +110,7 @@ if st.button("🔍 Get Answer") and question:
                 response = requests.post(
                     "https://openrouter.ai/api/v1/chat/completions",
                     headers={
-                        "Authorization": "Bearer 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",
+                        "Authorization": "Bearer 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",
                         "Content-Type": "application/json"
                     },
                     json={
@@ -186,4 +186,5 @@ with st.expander("ℹHow to use this multi-document assistant"):
     - "Find common themes in the documents"
     
     The system will search through all your documents and provide answers based on the combined information!
+
     """)
