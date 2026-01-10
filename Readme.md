@@ -11,9 +11,9 @@ A very simple app that lets you upload documents and ask questions about them.
 5. Ask questions!
 
 ## What it does
-
 - Reads your documents
 - Breaks them into small pieces
 - Finds relevant pieces when you ask questions
 - Answers using only your documents
+
 - Says "I don't know" for questions not in your documents
