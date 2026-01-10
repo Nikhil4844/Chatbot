@@ -110,7 +110,7 @@ if st.button("🔍 Get Answer") and question:
                 response = requests.post(
                     "https://openrouter.ai/api/v1/chat/completions",
                     headers={
-                        "Authorization": "Bearer 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",
+                        "Authorization": "Bearer sk-or-v1-************7e4f2dea1a162d40446c2224cf2b8ca13d03fb236f62da0ae63",
                         "Content-Type": "application/json"
                     },
                     json={
@@ -188,5 +188,6 @@ with st.expander("ℹHow to use this multi-document assistant"):
     The system will search through all your documents and provide answers based on the combined information!
 
     """)
+
 
 
